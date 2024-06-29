@@ -105,6 +105,11 @@ a:hover{
     display: none;
     color: white;
 }
+@media(max-width:500px){
+    .search-div{
+        display: none;
+    }
+}
 @media(max-width:700px){
     nav .nav-links{
         display: none;
